@@ -7,7 +7,7 @@ from PIL import Image
 
 img = Image.open('sample_image.jpg')
 
-img.thumbnail((500, 500))  # thumbnail size & ratio
+img.thumbnail((150, 150))  # thumbnail size & ratio aspect 
 
 img.save('sample_image.thumbnail.jpg')
 
