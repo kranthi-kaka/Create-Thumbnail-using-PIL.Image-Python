@@ -1,0 +1,17 @@
+#Author: Kranthi Kumar D
+@kranthi-kaka
+
+# Create thumbnail using PIL.image # Python
+
+from PIL import Image
+
+img = Image.open('sample_image.jpg')
+
+img.thumbnail((500, 500))  # thumbnail size & ratio
+
+img.save('sample_image.thumbnail.jpg')
+
+img.show()
+print("Image Converted to Thumbnail")
+
+# End code
